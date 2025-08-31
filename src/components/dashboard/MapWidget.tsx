@@ -6,10 +6,10 @@ import { Card } from "@/components/ui/card";
 
 // Mock junction data
 const junctions = [
-  { id: 'J001', x: 30, y: 20, status: 'good', name: 'Main St & 1st Ave' },
-  { id: 'J002', x: 60, y: 40, status: 'warning', name: 'Broadway & 2nd St' },
-  { id: 'J003', x: 80, y: 60, status: 'critical', name: 'Park Ave & 3rd St' },
-  { id: 'J004', x: 20, y: 70, status: 'good', name: '4th St & Oak Rd' },
+  { id: 'J001', x: 30, y: 20, status: 'good', name: 'Outer Ring Road' },
+  { id: 'J002', x: 60, y: 40, status: 'warning', name: 'MG Road' },
+  { id: 'J003', x: 80, y: 60, status: 'critical', name: 'Bhagwaan Mahavir Maarg' },
+  { id: 'J004', x: 20, y: 70, status: 'good', name: 'Sardar Patel Marg' },
   { id: 'J005', x: 70, y: 25, status: 'good', name: 'Elm St & 5th Ave' },
 ];
 

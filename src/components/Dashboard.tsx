@@ -8,6 +8,7 @@ import PhaseRing from "./dashboard/PhaseRing";
 import EmergencyPreemption from "./dashboard/EmergencyPreemption";
 import ChartsPanel from "./dashboard/ChartsPanel";
 import AlertSystem from "./dashboard/AlertSystem";
+import MapApp from "./dashboard/MapApp";
 
 const Dashboard = () => {
   return (
@@ -15,12 +16,18 @@ const Dashboard = () => {
       <DashboardHeader />
       
       <main className="p-6 space-y-6">
-        {/* Top Row - Metrics and Map */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2">
+        {/* Top Row - Metrics, Map, and Alerts */}
+        <div className="grid grid-cols-3 grid-rows-2 gap-x-6 gap-y-2">
+          {/* MetricsStrip: spans 2 columns, 1 row */}
+          <div className="col-span-2 row-span-1">
             <MetricsStrip />
           </div>
-          <div className="lg:col-span-1">
+          {/* MapApp: spans 1 column, 2 rows */}
+          <div className="col-span-1 row-span-2 flex flex-col">
+            <MapApp />
+          </div>
+          {/* AlertSystem: spans 2 columns, 1 row */}
+          <div className="col-span-2 row-span-1">
             <AlertSystem />
           </div>
         </div>

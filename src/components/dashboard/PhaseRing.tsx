@@ -10,10 +10,10 @@ const PhaseRing = () => {
 
   // Mock phase data
   const phases = [
-    { id: 1, name: 'Main St North-South', duration: 45, color: 'bg-status-good' },
-    { id: 2, name: 'Left Turn Main St', duration: 20, color: 'bg-status-warning' },
-    { id: 3, name: '1st Ave East-West', duration: 40, color: 'bg-status-good' },
-    { id: 4, name: 'Left Turn 1st Ave', duration: 15, color: 'bg-status-warning' },
+    { id: 1, name: 'Outer Ring Road', duration: 45, color: 'bg-status-good' },
+    { id: 2, name: 'MG Road', duration: 20, color: 'bg-status-warning' },
+    { id: 3, name: 'Bhagwaan Mahavir Maarg', duration: 40, color: 'bg-status-good' },
+    { id: 4, name: 'Sardar Patel Marg', duration: 15, color: 'bg-status-warning' },
     { id: 5, name: 'Pedestrian All-Way', duration: 25, color: 'bg-primary' },
   ];
 

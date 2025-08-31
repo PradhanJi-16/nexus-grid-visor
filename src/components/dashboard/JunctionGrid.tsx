@@ -6,7 +6,7 @@ import { TrendingUp, TrendingDown, Minus, Users, Car } from "lucide-react";
 const junctions = [
   {
     id: 'J001',
-    name: 'Main St & 1st Ave',
+    name: 'Outer Ring Road',
     status: 'good',
     volume: 247,
     avgDelay: 18,
@@ -16,7 +16,7 @@ const junctions = [
   },
   {
     id: 'J002', 
-    name: 'Broadway & 2nd St',
+    name: 'MG Road',
     status: 'warning',
     volume: 189,
     avgDelay: 45,
@@ -26,7 +26,7 @@ const junctions = [
   },
   {
     id: 'J003',
-    name: 'Park Ave & 3rd St',
+    name: 'Bhagwaan Mahavir Maarg',
     status: 'critical',
     volume: 312,
     avgDelay: 78,
@@ -36,7 +36,7 @@ const junctions = [
   },
   {
     id: 'J004',
-    name: '4th St & Oak Rd',
+    name: 'Sardar Patel Marg',
     status: 'good',
     volume: 156,
     avgDelay: 12,
