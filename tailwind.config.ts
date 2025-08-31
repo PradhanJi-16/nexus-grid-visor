@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,22 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Traffic Control Specific Colors
+				status: {
+					good: 'hsl(var(--status-good))',
+					'good-foreground': 'hsl(var(--status-good-foreground))',
+					warning: 'hsl(var(--status-warning))',
+					'warning-foreground': 'hsl(var(--status-warning-foreground))',
+					critical: 'hsl(var(--status-critical))',
+					'critical-foreground': 'hsl(var(--status-critical-foreground))'
+				},
+				panel: {
+					glass: 'hsl(var(--panel-glass))',
+					border: 'hsl(var(--panel-border))'
+				},
+				shadow: {
+					elevation: 'hsl(var(--shadow-elevation))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
